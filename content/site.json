@@ -1,0 +1,27 @@
+{
+  "services": [
+    {
+      "title": "Material Governance & Traceability",
+      "tag": "CORE",
+      "text": "Govern what happens to assets, materials and waste after they leave your immediate control.",
+      "items": ["ACTPL traceability", "Vendor governance", "Evidence & reconciliation", "ACAR closure records", "ESG / BRSR evidence", "EPR evidence integrity"]
+    },
+    {
+      "title": "Managed Material Services",
+      "tag": "EXECUTION",
+      "text": "When execution is needed, Avaran can provide or coordinate the work without forcing you to replace your existing vendor ecosystem.",
+      "items": ["Decommissioning", "Demolition & dismantling", "Asset shifting", "Site clearance", "Material recovery", "C&D / e-waste routing"]
+    },
+    {
+      "title": "Public Sector Governance",
+      "tag": "SYSTEM OVERSIGHT",
+      "text": "Give authorities visibility into whether material and waste systems are functioning as reported.",
+      "items": ["ULB waste-flow governance", "PWD / CPWD / MES", "SPCB / PCC oversight", "State missions", "ICCC integration", "Evidence & exception monitoring"]
+    }
+  ],
+  "insights": [
+    {"title":"Why material traceability is becoming a management issue", "category":"Governance", "text":"A practical view of origin, custody, destination, outcome and reconciliation."},
+    {"title":"Using corporate eBids as a route into material governance", "category":"Enterprise", "text":"How execution-led opportunities can create a pathway to longer-term governance relationships."},
+    {"title":"What a defensible material evidence chain looks like", "category":"Evidence", "text":"The minimum records needed to support a credible material outcome."}
+  ]
+}
