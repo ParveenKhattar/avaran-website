@@ -1,16 +1,29 @@
-# Avaran Website
+# Avaran Website V3
 
-Static Avaran corporate website with GitHub Pages hosting and Decap CMS content maintenance.
+This version is a deliberate evolution of the existing Avaran website, retaining its core identity and content while incorporating the September 2026 Strategic Business Policy.
 
-## Before publishing
-1. Create a GitHub repository named `avaran-website`.
-2. Upload all files from this folder to the repository.
-3. Edit `admin/config.yml` and replace `YOUR_GITHUB_USERNAME` with your GitHub username.
-4. Enable GitHub Pages using GitHub Actions or the `main` branch.
-5. In Settings → Pages → Custom domain, enter `avaran.co.in`.
-6. At the DNS provider, point the apex domain to GitHub Pages using GitHub's current A records, and `www` to your GitHub Pages hostname if you want `www` as well.
-7. Enable HTTPS after GitHub verifies the domain.
-8. `/admin/` is the content maintenance interface. The GitHub backend requires appropriate repository access/authentication; Decap Turbo can be used for hosted GitHub authentication if preferred.
+## Retained from the existing website
+- Avaran provides the TRUST Layer
+- Operating System for Circular Governance
+- Proof Chain
+- Not Another waste contractor / recycler / generic consultant
+- The Value of Transparency
+- Founder’s Philosophy and Col. Navinder Narang (Retd.)
+- Mission: Visibility, Coordination, Documentation, Verified outcomes
+- Existing material streams: C&D, electronic waste, commercial interiors, industrial & utility assets
+- Ecosystem and compliance boundary
 
-## Content model
-The initial CMS manages Services and Insights through `content/site.json`. More collections can be added later for case studies, industry pages, downloads and announcements.
+## Strategic additions
+- Three approved business verticals
+- ACTPL as common technology/evidence backbone, not a fourth vertical
+- Execution through Avaran or approved/client-registered vendors
+- Corporate eBid / Tender / RFQ as an entry route within managed material services
+- Enterprise governance and ESG evidence
+- Public-sector material and waste governance
+- Minimum Evidence Standard
+
+## Important
+- No CNAME file is included. Keep the GitHub Pages site on the temporary `parveenkhattar.github.io/avaran-website/` address until Navinder's review is complete.
+- Existing Avaran imagery is referenced from the current Wix-hosted image URLs so the visual identity remains recognisable during the review stage. Before final migration away from Wix, these assets should be copied into `assets/images/` and the references made local.
+- The enquiry form is intentionally not connected yet. Direct email/WhatsApp links are used for the review version.
+- The Decap CMS folder is included only as the maintenance foundation; CMS authentication should be configured after the content/design is approved.
